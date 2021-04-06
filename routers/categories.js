@@ -24,7 +24,7 @@ router.get(`/:id`, async(req, res) => {
 
 router.post('/', async(req, res) => {
     
-    let category = new Order({
+    let category = new Category({
        name: req.body.name,
        icon: req.body.icon,
        color: req.body.color
